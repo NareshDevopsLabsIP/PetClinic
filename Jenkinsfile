@@ -1,5 +1,5 @@
 node {
-    def mvnHome = tool name: 'Maven_3', type: 'maven'
+    def mvnHome = tool name: 'Maven_3.6.3', type: 'maven'
     def mvnCli = "${mvnHome}/bin/mvn"
 
     properties([
